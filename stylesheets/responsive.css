@@ -1,0 +1,135 @@
+@media screen and (max-width: 932px) {
+    /* .checkOutItemBottom{
+        margin-right: 11%;
+    } */
+}
+@media screen and (max-width: 800px) {
+    
+    .listBox{
+        
+        width:50%;
+    }
+    
+}
+@media screen and (min-width: 690px) {
+    /* .wrapup{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; */
+        /* justify-content: space-between;
+        margin:0;
+        left:20; */
+
+         /* align-items: flex-end;  */
+    }
+    .checkOutItemBotton{
+        visibility: unset;  
+        
+    }
+    .totalbottom{
+        position: relative;
+    }
+}
+@media screen and (max-width: 690px) {  
+    .checkOutItem2{
+       /* align-self: flex-end; */
+        
+       /* text-align: right; */
+         /* padding-left:4%; */
+    }
+    .checkOutItem4{
+        /* margin-right: 5%; */
+        /* align-self: flex-start; */
+    }
+    .checkOutItemButton{
+        display:none;
+    }
+    a.icon{
+        display: block;
+        float: left;
+
+        padding-left: 20px;  
+        padding-top: 5px;
+    }
+    .col-1{
+        width: 100% ;
+        margin-top:0;
+    }
+    .col-2{
+        margin-left:20px;
+        width: 100%;
+    }
+    .horizontalLine{
+        width:90%;
+    }
+    .selectItemsLeft{
+        width: 30%;
+    }
+    .selectedItemList{
+        width: 85%;
+    }
+    a.Carticon{
+        display: none;
+    }
+    .navBar li {
+        display:none;
+    }
+    .cartListImage{
+        margin-top:0;
+    }
+    
+    .ItemshopNowButton{
+        display:block;
+        
+    }
+     .ItemshopNowButtonLink{
+        width:100%;
+          /* margin-top: 180px;    */
+    }
+
+    .shopNowButtonItemPage{
+        display:none;
+    }
+    .checkoutsmallscreen{
+        display: block;
+    }
+    .footerTextCollapseLater{
+        display: none;
+    }
+    .checkOutItem{
+        padding: 0;
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+    .shopNowButton{
+        padding: 3px 20px;
+    }
+  
+    a.Carticon{
+        display: none;
+    }
+    
+   
+    .navBar li {
+        display:none;
+    }
+}
+@media screen and (max-width: 442px) {
+    /* body{
+        width:500px ;
+    } */
+    .listBox{
+        
+        width:100%;
+    }
+    a.Carticon{
+        display: none;
+    }
+    .ItemshopNowButton{
+        display:block;
+        
+    }
+    
+}

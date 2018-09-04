@@ -1,0 +1,134 @@
+.flex-container1{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+
+}
+.flex-container2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.top{
+    margin-top:20px;
+}
+/* .headerItem{
+    align-self: center;
+} */
+
+.flex-container3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-around;
+
+    
+}
+.flex-container4{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    width: 50%;
+}
+.flex-container6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    }
+
+
+.flex-container5{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        margin-top: 20px;
+        /* align-items: center; */
+        width: 40%;
+ }
+    
+
+.title{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+.input-field{
+    
+     width:100%; 
+    border:none;
+    padding:20px 12px;
+    border-bottom: 1px solid gray;
+
+}
+.input-field1{
+    width:45%; 
+    border:none;
+    padding:20px 12px;
+    border-bottom: 1px solid gray; 
+
+}
+.input-field2{
+    width:31%; 
+    border:none;
+    padding:20px 12px;
+    border-bottom: 1px solid gray; 
+
+}
+.input-field3{
+    /* width:31%;  */
+    border:none;
+    padding:20px;
+    
+ 
+
+}
+.formInput{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.shopNowButtonItemPage{
+
+    display: block;
+    margin:20px 0px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-size: 20px;
+    padding: 5px 44px;
+    text-align: center;
+}
+@media screen and (max-width: 845px) {
+    .flex-container4{
+        width: 45%;
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 690px) {
+    .flex-container3{
+        flex-direction: column; 
+        
+
+    }   
+    .flex-container4{
+        width: 71%;
+        align-items: flex-start;
+    }
+    .flex-container5{
+        justify-content: flex-end;
+        width: 50%;
+        
+    }
+    /* .input-field{} */
+}
